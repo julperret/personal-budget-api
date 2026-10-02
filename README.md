@@ -47,7 +47,7 @@ The project follows a clear separation of concerns across four layers:
 - **Database layer**: parameterized SQL queries via a shared `pg` connection pool
 - **Error handling**: custom `httpError` factory and global error middleware
 ```
-personal-budget-2/
+personal-budget-api/
 ├── server.js
 ├── openapi.yaml                # OpenAPI 3.0 documentation
 ├── .env                        # secrets (gitignored)
@@ -226,8 +226,8 @@ All endpoints were tested manually using **Postman** across nominal and edge cas
 ### Clone and install dependencies
  
 ```bash
-git clone git@github.com:julien-p-code/personal-budget-2.git
-cd personal-budget-2
+git clone git@github.com:julperret/personal-budget-api.git
+cd personal-budget-api
 npm install
 ```
  
@@ -321,5 +321,5 @@ To deploy your own instance:
 ## Author
  
 **Julien Perret**
-GitHub: [julien-p-code](https://github.com/julien-p-code)
+GitHub: [julperret](https://github.com/julperret)
  
